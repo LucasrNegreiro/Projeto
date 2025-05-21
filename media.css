@@ -8,7 +8,7 @@ desktop: 992px ate 1200
 grandes telas: acima de 1200px
 */
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
 
     .container{
         width: 420px;
