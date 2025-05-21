@@ -1,8 +1,17 @@
 @charset "UTF-8";
 
+/*typical device breakpoints 
+pequenas telas:até 600px
+celular: de 600px ate 768px
+Tablet: 768px ate 992px
+desktop: 992px ate 1200
+grandes telas: acima de 1200px
+*/
 
+@media screen and (min-width: 992px) {
 
-@media  and (min-width 992px;) {
+    .container{
+        width: 420px;
+    }
 
-    
 }
