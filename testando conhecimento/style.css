@@ -3,6 +3,118 @@
 *{
     padding: 0px;
     margin: 0px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     box-sizing: border-box;
+    scroll-behavior:auto;
 }
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../imagens/teste.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*sessão do TITULO*/
+
+body h1{
+    background-color: transparent;
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+    height: 100px;
+    font-size: 4em;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+
+}
+/*sessão do cabeçalho*/
+
+.cabecalho{
+    background-color: transparent;
+    text-align: center;
+     
+}
+
+.cabecalho li{
+    display: inline-block;
+    margin: 10px 10px;
+    font-size: 20px;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    
+    
+    
+
+}
+
+.cabecalho li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    font-weight: 500;
+    
+}
+
+.cabecalho li a:hover{
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-color: rgb(104, 110, 110);
+    transition: .5s;
+    transition-timing-function: ease;
+}
+
+/*sessão do conteudo*/
+
+.container{
+    position: absolute;
+    top: 180px;
+    background-color: transparent;
+    height: 500px;
+    width: 900px;
+    backdrop-filter: blur(120px);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.container h2{
+    position: absolute;
+    padding: 10px;
+    transform: translateX(350px);
+    color: #fff;
+}
+
+.Inicio{
+    
+    position: absolute;
+    top: 100px;
+    background-image: url(../imagens/trab.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    width: 200px;
+    height: 300px;
+    transform: translateX(50px);
+}
+/*sessão texto conteudo*/
+.texto{
+    position: absolute;
+    top: 100px;
+    border-radius: 10px;
+    background-color: transparent;
+    width: 500px;
+    height: 300px;
+    transform: translateX(380px);
+    
+}
+.texto p{
+    padding: 5px;
+    text-indent: 5%;
+    
+}
+
+
